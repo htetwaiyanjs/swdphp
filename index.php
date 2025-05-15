@@ -59,4 +59,23 @@
   // control flow
   // loops
   // functions
+
+  //swap
+
+  $a = 20;
+  $b = 10;
+  $temp = $a;
+  $a = $b;
+  $b = $temp;
+
+  echo  $a;
+  echo $b;
+
+
+  // check data type using var_dump()
+  var_dump($name);
+  var_dump($age);
+  var_dump($height);
+  var_dump($is_married);
+  var_dump($hobbies);
 ?>
